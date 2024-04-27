@@ -1,24 +1,24 @@
-<h1 align="center"> NO FURTHER UPDATES UNTIL VALVE FIXES THEIR GAME</h1>
-<h1 align="center"> CS2-AHK-Bhop </h1>
-<p align="center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdh2URkiQQXoTaYWONuze998BHO7MdAd0rQ&usqp=CAU" alt="Logo" width="200" height="200">
-    </a>
-<h4 align="center">A script AutoHotKey to bhop in cs2 <br> Not bannable as it just use a AutoHotKey <br> Can be banned in Overwatch</h4>
+<h1 align="center">L4D2 silent bhop script</h1>
+<h4 align="center">Script made in autohotkey</h4>
 
+### Funcionamiento del script
+- El script esta diseñado para no sobrepasar una cierta velocidad de bhop para no ser detectado ademas se uso el equivalente a 64 ticks en ms para el bhoping.
+### Testing
+- Testeado en https://cedapug.com
+- Testeado en https://l4d2center.com (no lilac detection)
+- Testeado en servidores de sirplease, unk, iogamingasia (https://www.l4d2love.com supongo)
 
-## ![](https://github.com/McDaived/NoRecoil-CS2/assets/18085492/7eab67ab-4b44-40ee-b050-53e48a856fc5)How to use :
-1. Make sure you always get a best speed on the first jump on (flat floor) and continue bhoping.
-2. it still requires strafing skill
-3. Make sure put this command in console `` bind mwheeldown +jump; ``
+### ¿Porque usar autohotkey?
+Autohotkey es un lenguaje de scripting diseñado para automatizar procesos mayormente usando macros, esto hace que sea dificil para un anticheat reconocer un posible programa malicioso
+pues a diferencia de un script hecho con un lenguaje de programacion como python, c++ o incluso lenguajes de bajo nivel como c, go, rust o asm; estos ejecutan un programa que puede ser leido
+por el anticheat como programa malicioso pero, ¿Porque en autohotkey esto no es asi?
 
-## ![](https://github.com/McDaived/BJump-AHK-CS2/assets/18085492/fe3b6c2b-91b6-4df3-aa96-5022932dca19)KeyBind :
-Side mouse buttons (Mouse4)
-## <a href="https://www.freeiconspng.com/img/8022" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/video-icon-1.png" width="40" alt="Svg Video Icon" /></a> Demo :
-Demo the script
+### Entendiendo como funciona autohotkey
+Este es un breve resumen del como autohotkey logra evadir sistemas de deteccion de trampas, autohotkey puede ser leido como programa pero la razon por la que autohotkey no es prohibido
+es porque al ejecutar un script de autohotkey el sistema lo detecta como si usted estuviese simplemente presionando una tecla de su teclado o haciendo click con su mouse.
+Con autohotkey es posible incluso ejecutar programas que serian dificiles de programar en un lenguaje de programacion de alto nivel como los famosos triggerbots o aimbots que son guiados por
+colores.
 
-
-
-
-
-https://github.com/Ryuu43/CS2-AHK-Bhop/assets/72246166/2979db82-9adb-4e44-b784-f271ac413c42
+### Como usar
+Solo instale autohotkey desde su pagina principal y luego ejecute el .ahk script 
 
